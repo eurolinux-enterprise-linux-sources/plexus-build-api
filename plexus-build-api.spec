@@ -1,6 +1,6 @@
 Name:           plexus-build-api
 Version:        0.0.7
-Release:        10%{?dist}
+Release:        11%{?dist}
 Summary:        Plexus Build API
 
 License:        ASL 2.0
@@ -57,6 +57,9 @@ cp -p %{SOURCE1} .
 %doc LICENSE-2.0.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.0.7-11
+- Mass rebuild 2013-12-27
+
 * Thu Aug 15 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 0.0.7-10
 - Migrate away from mvn-rpmbuild (#997433)
 
